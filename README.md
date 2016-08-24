@@ -1,6 +1,6 @@
 ###最轻量的可展开和收缩内容的TextView，可用于listview等列表或普通布局情况
 ###项目介绍： 
-   **一个支持可展开和收缩内容的TextView,支持在listview等列表使用不错乱，支持在普通局部使用**
+   一个支持可展开和收缩内容的TextView,支持在listview等列表使用不错乱，支持在普通局部使用
 ###国际案例：有图有真相
 ![效果预览图](https://github.com/jaydenxiao2016/ExpandableTextViewExample/blob/master/arts/expandabletextview.gif)
 ###支持配置属性：
