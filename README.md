@@ -12,6 +12,29 @@
  - 展开/收起变化监听
 
 ###使用方法
+- use Gradle:
+
+```javascript
+dependencies {
+
+compile 'com.jaydenxiao:ExpandableTextView:1.0.0'
+
+}
+```
+- Or Maven:
+
+```javascript
+<dependency>
+  <groupId>com.jaydenxiao</groupId>
+  <artifactId>ExpandableTextView</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
+- Or download the libray for your module:
+
+
 ######布局文件
 ```javascript
  <jaydenxiao.com.expandabletextview.ExpandableTextView
