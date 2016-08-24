@@ -126,10 +126,10 @@ public class ExpandableTextView extends LinearLayout implements View.OnClickList
         textExpand = typedArray.getString(R.styleable.ExpandableTextView_textExpand);
 
         if (mExpandDrawable == null) {
-            mExpandDrawable = ContextCompat.getDrawable(getContext(),R.drawable.icon_green_arrow_down);
+            mExpandDrawable = ContextCompat.getDrawable(getContext(),R.drawable.icon_green_arrow_up);
         }
         if (mCollapseDrawable == null) {
-            mCollapseDrawable = ContextCompat.getDrawable(getContext(), R.drawable.icon_green_arrow_up);
+            mCollapseDrawable = ContextCompat.getDrawable(getContext(), R.drawable.icon_green_arrow_down);
         }
 
         if (TextUtils.isEmpty(textCollapse)) {
@@ -197,7 +197,7 @@ public class ExpandableTextView extends LinearLayout implements View.OnClickList
         }
         mCollapsed = !mCollapsed;
         //修改收起/展开图标、文字
-        mTvExpandCollapse.setCompoundDrawablesWithIntrinsicBounds(null,null,mCollapsed ? mExpandDrawable : mCollapseDrawable,null);
+        mTvExpandCollapse.setCompoundDrawablesWithIntrinsicBounds(null,null,mCollapsed ? mCollapseDrawable : mExpandDrawable,null);
         mTvExpandCollapse.setText(mCollapsed ? getResources().getString(R.string.expand) : getResources().getString(R.string.collapse));
         //保存位置状态
         if (mCollapsedStatus != null) {
@@ -350,7 +350,7 @@ public class ExpandableTextView extends LinearLayout implements View.OnClickList
         mCollapsed = mCollapsedStatus.get(position, true);
         clearAnimation();
         //设置收起/展开图标和文字
-        mTvExpandCollapse.setCompoundDrawablesWithIntrinsicBounds(null,null,mCollapsed ? mExpandDrawable : mCollapseDrawable,null);
+        mTvExpandCollapse.setCompoundDrawablesWithIntrinsicBounds(null,null,mCollapsed ? mCollapseDrawable : mExpandDrawable,null);
         mTvExpandCollapse.setText(mCollapsed ? getResources().getString(R.string.expand) : getResources().getString(R.string.collapse));
 
         setText(text);
