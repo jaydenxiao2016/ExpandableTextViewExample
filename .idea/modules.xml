@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExpandableTextView/expandabletextview.iml" filepath="$PROJECT_DIR$/ExpandableTextView/expandabletextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandableTextView/ExpandableTextView.iml" filepath="$PROJECT_DIR$/ExpandableTextView/ExpandableTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExpandableTextViewExample.iml" filepath="$PROJECT_DIR$/ExpandableTextViewExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

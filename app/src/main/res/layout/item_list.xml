@@ -15,6 +15,7 @@
         app:collapseExpandTextColor="@color/main_color"
         app:contentTextColor="@color/gray"
         app:contentTextSize="14sp"
+        app:drawableGrarity="left"
         app:expandDrawable="@drawable/icon_green_arrow_up"
         app:maxCollapsedLines="5"
         app:textCollapse="@string/collapse"
